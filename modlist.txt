@@ -11,7 +11,7 @@
 
 
 # ================================================================
-# POLI LITE [v.3.0-BETA]
+# POLI LITE [v.3.0]
 # ================================================================
 
 Architectury API         | 13.0.8       | https://cdn.modrinth.com/data/lhGA9TYQ/versions/ZxYGwlk0/architectury-13.0.8-neoforge.jar
@@ -58,11 +58,11 @@ PatPat                   | 1.2.4        | https://cdn.modrinth.com/data/dw7LChq9
 Player Animation Lib     | 2.0.4        | https://cdn.modrinth.com/data/gedNE4y2/versions/HJZB6bmA/player-animation-lib-forge-2.0.4%2B1.21.1.jar
 Power Grid               | 0.5.5.1      | https://cdn.modrinth.com/data/eWiBLJ9R/versions/8EtGIOFr/powergrid-mc1.21.1-0.5.5.1.jar
 ResourcePackCached       | 1.2.5        | https://cdn.modrinth.com/data/d4phKsx2/versions/CXXq3WeQ/rpc-1.2.5%2B1.20.5-1.21.4-neoforge.jar
-Rhino                    | 2101.2.7     | https://cdn.modrinth.com/data/sk9knFPE/versions/KobrWfUm/rhino-2101.2.7-build.77.jar
+Rhino                    | 2101.2.7     | https://cdn.modrinth.com/data/sk9knFPE/versions/ZdLtebKH/rhino-2101.2.7-build.81.jar
 Ritchies Projectile Lib  | 2.1.2        | https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2%2Bmc.1.21.1-neoforge.jar
 Self Expression          | 2.22a        | https://cdn.modrinth.com/data/yv3OK08E/versions/rkbv62gk/selfexpression-2.22a-neoforge-1.21.1.jar
 Simple Voice Chat        | 2.6.18       | https://cdn.modrinth.com/data/9eGKb6K1/versions/eFhbQnrh/voicechat-neoforge-1.21.1-2.6.18.jar
-Sodium                   | 0.6.13       | https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-neoforge-0.6.13%2Bmc1.21.1.jar
+Sodium                   | 0.6.13       | https://cdn.modrinth.com/data/AANobbMI/versions/tVLDCyrm/sodium-neoforge-0.8.12-alpha.4%2Bmc1.21.1.jar
 Sodium Extra             | 0.8.7        | https://cdn.modrinth.com/data/PtjYWJkn/versions/hXez7Tlk/sodium-extra-neoforge-0.8.7%2Bmc1.21.1.jar
 Sophisticated Backpacks  | 3.25.52.1813 | https://cdn.modrinth.com/data/TyCTlI4b/versions/r2NvIKZb/sophisticatedbackpacks-1.21.1-3.25.52.1813.jar
 Sophisticated Core       | 1.4.46.1946  | https://cdn.modrinth.com/data/nmoqTijg/versions/AzEDQviJ/sophisticatedcore-1.21.1-1.4.46.1946.jar
@@ -73,7 +73,7 @@ Xaero's World Map        | 1.40.16      | https://cdn.modrinth.com/data/NcUtCpym
 
 
 # ================================================================
-# POLI FUSION [v.3.0-BETA] — ДОДАТКОВІ МОДИ
+# POLI FUSION [v.3.0] — ДОДАТКОВІ МОДИ
 # ================================================================
 
 3D Skin Layers           | 1.11.1       | https://cdn.modrinth.com/data/zV5r3pPn/versions/lWa5oHuK/skinlayers3d-neoforge-1.11.1-mc1.21.1.jar
