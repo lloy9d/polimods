@@ -45,10 +45,15 @@ jobs:
 
       - name: Публікація релізу v${{ env.PACK_VERSION }}
         run: |
+          if [ "${{ github.ref_name }}" = "dev" ]; then
+            FLAGS="--prerelease"
+          else
+            FLAGS="--latest"
+          fi
           gh release create "v${{ env.PACK_VERSION }}" \
             --title "POLI v${{ env.PACK_VERSION }}" \
             --notes-file dist/release_notes.md \
-            --latest \
+            $FLAGS \
             "dist/poli-lite.zip#poli-lite.zip" \
             "dist/poli-fusion.zip#poli-fusion.zip" \
             "dist/version.json#version.json"
