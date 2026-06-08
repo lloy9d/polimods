@@ -37,9 +37,9 @@ Entity Culling           | 1.10.2       | https://cdn.modrinth.com/data/NNAgCjsB
 Exposure                 | 1.9.16       | https://cdn.modrinth.com/data/hB899VmG/versions/OJ3DFzQc/exposure-neoforge-1.21.1-1.9.16.jar
 Farmer's Delight         | 1.3.2        | https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar
 FerriteCore              | 7.0.3        | https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar
-FTB Library [CF]         | 2101.1.31    | https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/download/7746959
-FTB Quests [CF]          | 2101.1.24    | https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/download/8195575
-FTB Teams [CF]           | 2101.1.10    | https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/download/7878281
+FTB Library [CF]         | 2101.1.31    | https://www.curseforge.com/api/v1/mods/404465/files/7746959/download
+FTB Quests [CF]          | 2101.1.24    | https://www.curseforge.com/api/v1/mods/289412/files/8195575/download
+FTB Teams [CF]           | 2101.1.10    | https://www.curseforge.com/api/v1/mods/404468/files/7878281/download
 Gravestone               | 1.0.37       | https://cdn.modrinth.com/data/RYtXKJPr/versions/Y29z3Y9Y/gravestone-neoforge-1.21.1-1.0.37.jar
 ImmediatelyFast          | 1.6.10       | https://cdn.modrinth.com/data/5ZwdcRci/versions/PhxY0iHw/ImmediatelyFast-NeoForge-1.6.10%2B1.21.1.jar
 Immersive Armors         | 1.7.6        | https://cdn.modrinth.com/data/eE2Db4YU/versions/B2YtQYCh/immersive_armors-1.7.6%2B1.21.1-neoforge.jar
