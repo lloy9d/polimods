@@ -46,7 +46,7 @@ jobs:
       - name: Публікація релізу v${{ env.PACK_VERSION }}
         run: |
           gh release create "v${{ env.PACK_VERSION }}" \
-            --title "POLI v${{ env.PACK_VERSION }} — Minecraft 1.21.1 NeoForge" \
+            --title "POLI v${{ env.PACK_VERSION }}" \
             --notes-file dist/release_notes.md \
             --latest \
             "dist/poli-lite.zip#poli-lite.zip" \
