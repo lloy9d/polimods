@@ -187,6 +187,8 @@ def write_release_notes(
         return f"| Мод | Версія |\n|---|---|\n{rows}"
 
     notes = f"""\
+<sub>Minecraft 1.21.1 · NeoForge</sub>
+
 > 🕐 Зібрано: {built_at}
 
 ---
