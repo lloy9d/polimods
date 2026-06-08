@@ -1,0 +1,56 @@
+name: Збірка модпаків
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  build:
+    name: Завантаження та пакування
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Клонування репозиторію
+        uses: actions/checkout@v4
+
+      - name: Налаштування Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Встановлення залежностей
+        run: pip install --quiet -r requirements.txt
+
+      - name: Відновлення кешу модів
+        uses: actions/cache@v4
+        with:
+          path: dist/.cache
+          key: mods-${{ hashFiles('modlist.txt') }}
+          restore-keys: |
+            mods-
+
+      - name: Збірка пакетів
+        run: python scripts/build_packs.py modlist.txt dist/
+
+      - name: Видалення попереднього релізу з цією версією (якщо є)
+        run: gh release delete "v${{ env.PACK_VERSION }}" --yes --cleanup-tag 2>/dev/null || true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Публікація релізу v${{ env.PACK_VERSION }}
+        run: |
+          gh release create "v${{ env.PACK_VERSION }}" \
+            --title "POLI v${{ env.PACK_VERSION }} — Minecraft 1.21.1 NeoForge" \
+            --notes-file dist/release_notes.md \
+            --latest \
+            "dist/poli-lite.zip#poli-lite.zip" \
+            "dist/poli-fusion.zip#poli-fusion.zip" \
+            "dist/version.json#version.json"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
