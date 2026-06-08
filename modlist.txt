@@ -43,6 +43,7 @@ FTB Teams [CF]           | 2101.1.10    | https://www.curseforge.com/api/v1/mods
 Gravestone               | 1.0.37       | https://cdn.modrinth.com/data/RYtXKJPr/versions/Y29z3Y9Y/gravestone-neoforge-1.21.1-1.0.37.jar
 ImmediatelyFast          | 1.6.10       | https://cdn.modrinth.com/data/5ZwdcRci/versions/PhxY0iHw/ImmediatelyFast-NeoForge-1.6.10%2B1.21.1.jar
 Immersive Armors         | 1.7.6        | https://cdn.modrinth.com/data/eE2Db4YU/versions/B2YtQYCh/immersive_armors-1.7.6%2B1.21.1-neoforge.jar
+Immersive Aircraft        | 1.4.6        | https://cdn.modrinth.com/data/x3HZvrj6/versions/RkWu0N4D/immersive_aircraft-1.4.6%2B1.21.1-neoforge.jar
 Immersive Furniture      | 0.2.2        | https://cdn.modrinth.com/data/SvN6UGeF/versions/FJ2Zl5in/immersive_furniture-neoforge-0.2.2%2B1.21.1.jar
 Immersive Melodies       | 0.6.4        | https://cdn.modrinth.com/data/TaSmHw8V/versions/FRJWinhs/immersive_melodies-neoforge-0.6.4%2B1.21.1.jar
 Immersive Vehicles       | 24.0.0       | https://cdn.modrinth.com/data/BCzBuhJ5/versions/B9xnlDrC/Immersive%20Vehicles-1.21.1-24.0.0.jar
