@@ -14,6 +14,7 @@ import urllib.parse
 import zipfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import requests
@@ -178,30 +179,33 @@ def write_release_notes(
     version: str,
     dest: Path,
 ) -> Path:
-    built_at = datetime.now(timezone.utc).strftime("%d.%m.%Y %H:%M UTC")
+    kyiv = ZoneInfo("Europe/Kyiv")
+    built_at = datetime.now(kyiv).strftime("%d.%m.%Y %H:%M (Київ)")
 
     def mod_table(mods: list[dict]) -> str:
         rows = "\n".join(f"| {m['name']} | `{m['version']}` |" for m in mods)
         return f"| Мод | Версія |\n|---|---|\n{rows}"
 
     notes = f"""\
-## POLI {version} — Minecraft 1.21.1 · NeoForge
-
 > 🕐 Зібрано: {built_at}
 
 ---
 
-### 📦 poli-lite.zip — базовий пакет · {len(lite)} модів
+<details>
+<summary>📦 poli-lite.zip — базовий пакет · {len(lite)} модів</summary>
 
 {mod_table(lite)}
 
+</details>
+
 ---
 
-### ⚡ poli-fusion.zip — повний пакет · {len(lite) + len(fusion)} модів
-
-> Містить усі моди з poli-lite + наведені нижче:
+<details>
+<summary>⚡ poli-fusion.zip — повний пакет · {len(lite) + len(fusion)} модів (містить усі моди з poli-lite + нижченаведені)</summary>
 
 {mod_table(fusion)}
+
+</details>
 """
 
     out = dest / "release_notes.md"
