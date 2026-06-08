@@ -73,22 +73,39 @@ def parse_modlist(path: Path) -> tuple[list[dict], list[dict], str]:
 
 
 # ── Завантаження ───────────────────────────────────────────────────────────────
-def _download_one(entry: dict, dest: Path) -> tuple[dict, Path | None]:
-    filename = urllib.parse.unquote(entry["url"].split("/")[-1])
-    target   = dest / filename
+def _filename_from_response(r: requests.Response, url: str) -> str:
+    cd = r.headers.get("Content-Disposition", "")
+    if cd:
+        m = re.search(r'filename\*?=["\']?(?:UTF-8\'\')?([^"\';\n]+)', cd, re.IGNORECASE)
+        if m:
+            return urllib.parse.unquote(m.group(1).strip())
+    return urllib.parse.unquote(url.split("/")[-1])
 
-    if target.exists():
-        print(f"  ↩  {entry['name']}  {entry['version']}  (кеш)")
-        return entry, target
+
+def _download_one(entry: dict, dest: Path) -> tuple[dict, Path | None]:
+    url = entry["url"]
+
+    # For URLs ending in /download the filename is unknown until we fetch
+    guessed = urllib.parse.unquote(url.split("/")[-1])
+    if guessed not in ("download", ""):
+        target = dest / guessed
+        if target.exists():
+            print(f"  ↩  {entry['name']}  {entry['version']}  (кеш)")
+            return entry, target
 
     try:
         with requests.get(
-            entry["url"],
+            url,
             timeout=DOWNLOAD_TIMEOUT,
             headers={"User-Agent": USER_AGENT},
             stream=True,
         ) as r:
             r.raise_for_status()
+            filename = _filename_from_response(r, url)
+            target   = dest / filename
+            if target.exists():
+                print(f"  ↩  {entry['name']}  {entry['version']}  (кеш)")
+                return entry, target
             target.write_bytes(r.content)
 
         print(f"  ✓  {entry['name']}  {entry['version']}")
