@@ -73,13 +73,39 @@ def parse_modlist(path: Path) -> tuple[list[dict], list[dict], str]:
 
 
 # ── Завантаження ───────────────────────────────────────────────────────────────
-def _download_one(entry: dict, dest: Path) -> tuple[dict, Path | None]:
-    filename = urllib.parse.unquote(entry["url"].split("/")[-1])
-    target   = dest / filename
+def _filename_from_response(r: requests.Response, fallback_url: str) -> str:
+    """Resolve the real filename from headers or the final redirect URL."""
+    # 1. Content-Disposition: attachment; filename="somefile.jar"
+    cd = r.headers.get("Content-Disposition", "")
+    if cd:
+        # RFC 5987 encoded: filename*=UTF-8''some%20file.jar
+        m = re.search(r"filename\*=(?:UTF-8'')?([^\s;]+)", cd, re.IGNORECASE)
+        if m:
+            return urllib.parse.unquote(m.group(1).strip('"'))
+        # Plain: filename="somefile.jar"
+        m = re.search(r'filename=["\']?([^"\';\r\n]+)["\']?', cd, re.IGNORECASE)
+        if m:
+            return urllib.parse.unquote(m.group(1).strip())
 
-    if target.exists():
+    # 2. Last segment of the final URL (after any redirects)
+    final_url = r.url
+    segment = urllib.parse.unquote(final_url.split("?")[0].rstrip("/").split("/")[-1])
+    if "." in segment:          # looks like a real filename
+        return segment
+
+    # 3. Original URL last segment as last resort
+    return urllib.parse.unquote(fallback_url.split("/")[-1])
+
+
+def _download_one(entry: dict, dest: Path) -> tuple[dict, Path | None]:
+    # Optimistic filename guess — works for Modrinth direct-jar URLs.
+    # For CurseForge the real name comes from the response (see below).
+    guessed_name = urllib.parse.unquote(entry["url"].split("/")[-1])
+    guessed_path = dest / guessed_name
+
+    if guessed_path.exists():
         print(f"  ↩  {entry['name']}  {entry['version']}  (кеш)")
-        return entry, target
+        return entry, guessed_path
 
     try:
         with requests.get(
@@ -89,9 +115,18 @@ def _download_one(entry: dict, dest: Path) -> tuple[dict, Path | None]:
             stream=True,
         ) as r:
             r.raise_for_status()
+
+            # Resolve the actual filename (critical for CurseForge redirects)
+            filename = _filename_from_response(r, entry["url"])
+            target   = dest / filename
+
+            if target.exists():
+                print(f"  ↩  {entry['name']}  {entry['version']}  (кеш)")
+                return entry, target
+
             target.write_bytes(r.content)
 
-        print(f"  ✓  {entry['name']}  {entry['version']}")
+        print(f"  ✓  {entry['name']}  {entry['version']}  →  {filename}")
         return entry, target
 
     except Exception as exc:
