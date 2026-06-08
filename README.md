@@ -14,11 +14,5 @@
 
 Завантажити бажаний пак можна кількома способами:
 
-- Пряме посилання у нашому офіційному дискорд сервері (https://discord.ptime.pp.ua)
-- Вкладка "[Releases](https://github.com/lloy9d/polimods/releases)" на Github у цьому репозиторії
-
----
-
-Моди за бажанням:
-
-**[ResourcePackCached](https://modrinth.com/mod/resourcepackcached?version=1.21.1&loader=neoforge#download)**  >  Кешує ресурспак сервера локально = після першого підключення він зберігається на вашому ПК і більше не потребує повторного завантаження.
+- Пряме посилання у нашому офіційному [дискорд сервері](https://discord.ptime.pp.ua) в каналі `⭐┃моди`.
+- Вкладка "[Releases](https://github.com/lloy9d/polimods/releases)" на Github у цьому репозиторії.
