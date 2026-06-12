@@ -11,7 +11,7 @@
 
 
 # ================================================================
-# POLI LITE [v.3.1]
+# POLI LITE [v.3.2]
 # ================================================================
 
 Architectury API         | 13.0.8       | https://cdn.modrinth.com/data/lhGA9TYQ/versions/ZxYGwlk0/architectury-13.0.8-neoforge.jar
@@ -28,7 +28,6 @@ Create Deco              | 2.1.3        | https://cdn.modrinth.com/data/sMvUb4Rb
 Create: Diesel Gen.      | 1.3.13       | https://cdn.modrinth.com/data/ZM3tt6p1/versions/7TPYyw7R/createdieselgenerators-1.21.1-1.3.13.jar
 Create Food              | 2.5.0        | https://cdn.modrinth.com/data/4HnO3el1/versions/9BNZ9n3q/createfood-neoforge-1.21.1-2.5.0.jar
 Create Ironworks         | 4.0.3        | https://cdn.modrinth.com/data/FZb6dmQf/versions/91r9PehB/create_ironworks-4.0.3-neoforge-1.21.1.jar
-Create: Radars           | 0.4.9.2      | https://cdn.modrinth.com/data/BLu2Yqfq/versions/vz0tPRci/create_radar-0.4.9.2-1.21.1.jar
 Create Steam n Rails     | 0.2.0        | https://cdn.modrinth.com/data/L3Jv0QZI/versions/oQKsMKfj/railways-0.2.0%2Bneoforge-mc1.21.1.jar
 Create: Winery           | 2.0.2        | https://cdn.modrinth.com/data/zBuk6egG/versions/vTUNDdDM/create_winery-2.0.2-neoforge-1.21.1.jar
 Curios API               | 9.5.1        | https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar
@@ -74,7 +73,7 @@ Xaero's World Map        | 1.40.16      | https://cdn.modrinth.com/data/NcUtCpym
 
 
 # ================================================================
-# POLI FUSION [v.3.1] — ДОДАТКОВІ МОДИ
+# POLI FUSION [v.3.2] — ДОДАТКОВІ МОДИ
 # ================================================================
 
 3D Skin Layers           | 1.11.1       | https://cdn.modrinth.com/data/zV5r3pPn/versions/lWa5oHuK/skinlayers3d-neoforge-1.11.1-mc1.21.1.jar
