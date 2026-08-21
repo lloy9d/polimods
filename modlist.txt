@@ -20,6 +20,7 @@ baguettelib              | 2.0.3            | https://cdn.modrinth.com/data/OfKz
 Chloride                 | 1.8.1            | https://cdn.modrinth.com/data/yD9qW65f/versions/IgWRdE2d/chloride-NEOFORGE-mc1.21.1-v1.8.1.jar
 Cold Sweat               | 2.4.2            | https://cdn.modrinth.com/data/uXhSmPjd/versions/a4MuLEBd/ColdSweat-2.4.2.jar
 Cosmetic Armor Reworked  | 0.0.4            | https://cdn.modrinth.com/data/6cpT8CUC/versions/U6kExSSz/cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.jar
+Cupboard [CF]            | 4.0              | https://www.curseforge.com/api/v1/mods/326652/files/8623569/download
 Create                   | 6.0.11           | https://github.com/lloy9d/polimods/raw/main/create-1.21.1-6.0.11.jar
 Create Aeronautics       | 1.3.1            | https://cdn.modrinth.com/data/oWaK0Q19/versions/Vzp221Un/create-aeronautics-bundled-1.21.1-1.3.1.jar
 Create Big Cannons       | 5.11.7           | https://cdn.modrinth.com/data/GWp4jCJj/versions/bOiDu0LS/createbigcannons-5.11.7%2Bmc.1.21.1.jar
@@ -36,6 +37,7 @@ Dynamic FPS              | 3.11.4           | https://cdn.modrinth.com/data/LQ3K
 Entity Culling           | 1.10.5           | https://cdn.modrinth.com/data/NNAgCjsB/versions/5zRIon6w/entityculling-neoforge-1.10.5-mc1.21.1.jar
 Exposure                 | 1.9.18           | https://cdn.modrinth.com/data/hB899VmG/versions/KZR7AUbh/exposure-neoforge-1.21.1-1.9.18.jar
 Farmer's Delight         | 1.3.3            | https://cdn.modrinth.com/data/R2OftAxM/versions/wpkbWnVh/FarmersDelight-1.21.1-1.3.3.jar
+Farsight [CF]            | 5.1              | https://www.curseforge.com/api/v1/mods/495693/files/8192566/download
 FerriteCore              | 7.0.3            | https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar
 FTB Library [CF]         | 2101.1.31        | https://www.curseforge.com/api/v1/mods/404465/files/8569579/download
 FTB Quests [CF]          | 2101.1.24        | https://www.curseforge.com/api/v1/mods/289412/files/8685244/download
@@ -84,9 +86,7 @@ AppleSkin                | 3.0.9            | https://cdn.modrinth.com/data/EsAf
 Chat Animation           | 1.3.1            | https://cdn.modrinth.com/data/DnNYdJsx/versions/wC0uTsko/chatanimation-neoforge-1.3.1%2Bmc1.21.jar
 Chat Heads               | 0.15.7           | https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ZPylso9i/chat_heads-0.15.7-neoforge-1.21.jar
 CreativeCore             | 2.13.44          | https://cdn.modrinth.com/data/OsZiaDHq/versions/JX9o5pJD/CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar
-Cupboard [CF]            | 4.0              | https://www.curseforge.com/api/v1/mods/326652/files/8623569/download
 Don't Punch My TACZ      | 0.1              | https://github.com/lloy9d/dont-punch-my-tacz/releases/download/v0.1/dont-punch-my-tacz-v0.1-1.21.1.jar
-Farsight [CF]            | 5.1              | https://www.curseforge.com/api/v1/mods/495693/files/8192566/download
 Highlighter              | 1.1.11           | https://cdn.modrinth.com/data/cVNW5lr6/versions/AsQ0Y2G9/Highlighter-1.21-neoforge-1.1.11.jar
 Iceberg                  | 1.3.2            | https://cdn.modrinth.com/data/5faXoLqX/versions/IMssx9du/Iceberg-1.21.1-neoforge-1.3.2.jar
 Iris Shaders             | 1.8.14-beta.1    | https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar
