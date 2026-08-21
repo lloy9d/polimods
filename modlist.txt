@@ -19,7 +19,6 @@ BadOptimizations         | 2.4.1          | https://cdn.modrinth.com/data/g96Z4W
 baguettelib              | 2.0.3          | https://cdn.modrinth.com/data/OfKzpbRU/versions/guIAbyuH/baguettelib-1.21.1-NeoForge-2.0.3.jar
 Better Combat            | 2.4.0          | https://cdn.modrinth.com/data/5sy6g3kz/versions/VhIOvcXP/bettercombat-neoforge-2.4.0%2B1.21.1.jar
 Chloride                 | 1.8.1          | https://cdn.modrinth.com/data/yD9qW65f/versions/IgWRdE2d/chloride-NEOFORGE-mc1.21.1-v1.8.1.jar
-ClientSort               | 3.89.0-beta.2  | https://cdn.modrinth.com/data/K0AkAin6/versions/kcEfphTi/clientsort-neoforge-3.89.0-beta.2%2B1.21.1.jar
 Cloth Config API         | 15.0.140       | https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar
 Cosmetic Armor Reworked  | 0.0.4          | https://cdn.modrinth.com/data/6cpT8CUC/versions/U6kExSSz/cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.jar
 Create                   | 6.0.11         | https://github.com/lloy9d/polimods/raw/main/create-1.21.1-6.0.11.jar
@@ -69,7 +68,6 @@ Sophisticated Backpacks  | 3.25.78.2107   | https://cdn.modrinth.com/data/TyCTlI
 Sophisticated Core       | 1.4.89.2291    | https://cdn.modrinth.com/data/nmoqTijg/versions/Wxcy92XH/sophisticatedcore-1.21.1-1.4.89.2291.jar
 TACZ                     | 1.1.8-hotfix-r6| https://cdn.modrinth.com/data/OypNE65K/versions/wPvGWIj9/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar
 Talk Balloons            | 1.5.4          | https://cdn.modrinth.com/data/l3tS9WUS/versions/SIZaJpOq/TalkBalloons-neoforge-1.5.4%2B1.21.1.jar
-TxniLib                  | 1.0.24         | https://cdn.modrinth.com/data/vBbPDuOs/versions/M1CyD3Uu/txnilib-neoforge-1.0.24-1.21.1.jar
 Xaero's Minimap          | 26.4.2         | https://cdn.modrinth.com/data/1bokaNcj/versions/JXvcT1hp/xaerominimap-neoforge-1.21.1-26.4.2.jar
 Xaero's World Map        | 1.45.0         | https://cdn.modrinth.com/data/NcUtCpym/versions/fOv9QzLO/xaeroworldmap-neoforge-1.21.1-1.45.0.jar
 
