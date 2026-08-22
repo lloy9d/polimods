@@ -11,7 +11,7 @@
 
 
 # ================================================================
-# POLI LITE [v.4.2-BETA]
+# POLI LITE [v.4.3-BETA]
 # ================================================================
 
 Architectury API         | 13.0.11          | https://cdn.modrinth.com/data/lhGA9TYQ/versions/1IiqEQGl/architectury-13.0.11-neoforge.jar
@@ -74,7 +74,7 @@ Xaero's World Map        | 1.45.0           | https://cdn.modrinth.com/data/NcUt
 
 
 # ================================================================
-# POLI FUSION [v.4.2-BETA] — ДОДАТКОВІ МОДИ
+# POLI FUSION [v.4.3-BETA] — ДОДАТКОВІ МОДИ
 # ================================================================
 
 3D Skin Layers           | 1.11.2           | https://cdn.modrinth.com/data/zV5r3pPn/versions/xPYbAPfz/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar
