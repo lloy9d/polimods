@@ -31,7 +31,6 @@ Create Ironworks         | 4.0.3            | https://cdn.modrinth.com/data/FZb6
 Create Propulsion        | 1.1.5            | https://cdn.modrinth.com/data/ApkoHNO9/versions/H13U56dc/createpropulsion-1.1.5.jar
 Create Steam n Rails     | 0.3.0-beta.2     | https://cdn.modrinth.com/data/L3Jv0QZI/versions/czVeSmZo/railways-0.3.0-beta.2%2Bneoforge-mc1.21.1.jar
 Copycats+                | 3.0.7            | https://cdn.modrinth.com/data/UT2M39wf/versions/8cABiKTp/copycats-3.0.7%2Bmc.1.21.1-neoforge.jar
-Aero Copycats            | 1.1.1            | https://cdn.modrinth.com/data/wjpmYU1u/versions/wsXjRa7l/aerocopycats-1.1.1.jar
 Curios API               | 9.5.1            | https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar
 Dynamic FPS              | 3.11.4           | https://cdn.modrinth.com/data/LQ3K71Q1/versions/T238FZpQ/dynamic-fps-3.11.4%2Bminecraft-1.21.0-neoforge.jar
 Entity Culling           | 1.10.5           | https://cdn.modrinth.com/data/NNAgCjsB/versions/5zRIon6w/entityculling-neoforge-1.10.5-mc1.21.1.jar
