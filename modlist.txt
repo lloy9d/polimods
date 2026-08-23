@@ -84,7 +84,7 @@ Chat Animation           | 1.3.1            | https://cdn.modrinth.com/data/DnNY
 Chat Heads               | 0.15.7           | https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ZPylso9i/chat_heads-0.15.7-neoforge-1.21.jar
 CreativeCore             | 2.13.44          | https://cdn.modrinth.com/data/OsZiaDHq/versions/JX9o5pJD/CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar
 Cupboard [CF]            | 4.0              | https://www.curseforge.com/api/v1/mods/326652/files/8623569/download
-Don't Punch My TACZ      | 0.1              | https://github.com/lloy9d/dont-punch-my-tacz/releases/download/v0.1/dont-punch-my-tacz-v0.1-1.21.1.jar
+Don't Punch My TACZ      | 0.2              | https://github.com/lloy9d/dont-punch-my-tacz/releases/download/v0.2/dont-punch-my-tacz-v0.2-1.21.1.jar
 Farsight [CF]            | 5.1              | https://www.curseforge.com/api/v1/mods/495693/files/8192566/download
 Highlighter              | 1.1.11           | https://cdn.modrinth.com/data/cVNW5lr6/versions/AsQ0Y2G9/Highlighter-1.21-neoforge-1.1.11.jar
 Iceberg                  | 1.3.2            | https://cdn.modrinth.com/data/5faXoLqX/versions/IMssx9du/Iceberg-1.21.1-neoforge-1.3.2.jar
